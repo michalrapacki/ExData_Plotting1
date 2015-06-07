@@ -1,4 +1,4 @@
-#getting classes to improve efficiency
+#getting classes to improve efficiency 
 initial <- read.table("./household_power_consumption.txt", header=T, sep=";", nrows = 100)
 classes <- sapply(initial, class)
 
